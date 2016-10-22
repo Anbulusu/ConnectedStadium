@@ -1,0 +1,28 @@
+{
+  "version": "1.0.0-*",
+  "description": "IOTSimulator Console Application",
+  "authors": [ "anbulusu" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+
+  "compilationOptions": {
+    "emitEntryPoint": true
+  },
+
+  "dependencies": {
+    "Microsoft.WindowsAzure.ConfigurationManager": "3.2.1"
+  },
+
+  "commands": {
+    "IOTSimulator": "IOTSimulator"
+  },
+
+  "frameworks": {
+    "dnx451": {
+      "dependencies": {
+        "Microsoft.Azure.Devices": "1.0.14"
+      }
+    }
+  }
+}

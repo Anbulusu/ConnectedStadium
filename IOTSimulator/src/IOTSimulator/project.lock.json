@@ -1,0 +1,479 @@
+{
+  "locked": false,
+  "version": 2,
+  "targets": {
+    "DNX,Version=v4.5.1": {
+      "Microsoft.AspNet.WebApi.Client/5.2.3": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "6.0.4"
+        },
+        "frameworkAssemblies": [
+          "System.Net.Http"
+        ],
+        "compile": {
+          "lib/net45/System.Net.Http.Formatting.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Net.Http.Formatting.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebApi.Core/5.2.3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.WebApi.Client": "5.2.3"
+        },
+        "compile": {
+          "lib/net45/System.Web.Http.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Http.dll": {}
+        }
+      },
+      "Microsoft.Azure.Amqp/1.1.5": {
+        "type": "package",
+        "compile": {
+          "lib/net451/Microsoft.Azure.Amqp.dll": {}
+        },
+        "runtime": {
+          "lib/net451/Microsoft.Azure.Amqp.dll": {}
+        }
+      },
+      "Microsoft.Azure.Devices/1.0.14": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.WebApi.Client": "5.2.3",
+          "Microsoft.AspNet.WebApi.Core": "5.2.3",
+          "Microsoft.Azure.Amqp": "1.1.5",
+          "PCLCrypto": "1.0.86"
+        },
+        "frameworkAssemblies": [
+          "System",
+          "System.Core",
+          "System.Net.Http",
+          "System.Runtime.Serialization"
+        ],
+        "compile": {
+          "lib/net451/Microsoft.Azure.Devices.dll": {}
+        },
+        "runtime": {
+          "lib/net451/Microsoft.Azure.Devices.dll": {}
+        }
+      },
+      "Microsoft.WindowsAzure.ConfigurationManager/3.2.1": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Microsoft.WindowsAzure.Configuration.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Microsoft.WindowsAzure.Configuration.dll": {}
+        }
+      },
+      "Mono.Security/3.2.3": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Mono.Security.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Mono.Security.dll": {}
+        }
+      },
+      "Newtonsoft.Json/6.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "PCLCrypto/1.0.86": {
+        "type": "package",
+        "dependencies": {
+          "Mono.Security": "[3.2.3, 4.0.0)",
+          "Validation": "[2.0.6, 3.0.0)"
+        },
+        "compile": {
+          "lib/net40-Client/PCLCrypto.dll": {}
+        },
+        "runtime": {
+          "lib/net40-Client/PCLCrypto.dll": {}
+        }
+      },
+      "Validation/2.0.6.15003": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net40+sl50+win+wpa81+wp80+Xamarin.iOS10+MonoAndroid10+MonoTouch10/Validation.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net40+sl50+win+wpa81+wp80+Xamarin.iOS10+MonoAndroid10+MonoTouch10/Validation.dll": {}
+        }
+      }
+    },
+    "DNX,Version=v4.5.1/win7-x86": {
+      "Microsoft.AspNet.WebApi.Client/5.2.3": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "6.0.4"
+        },
+        "frameworkAssemblies": [
+          "System.Net.Http"
+        ],
+        "compile": {
+          "lib/net45/System.Net.Http.Formatting.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Net.Http.Formatting.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebApi.Core/5.2.3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.WebApi.Client": "5.2.3"
+        },
+        "compile": {
+          "lib/net45/System.Web.Http.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Http.dll": {}
+        }
+      },
+      "Microsoft.Azure.Amqp/1.1.5": {
+        "type": "package",
+        "compile": {
+          "lib/net451/Microsoft.Azure.Amqp.dll": {}
+        },
+        "runtime": {
+          "lib/net451/Microsoft.Azure.Amqp.dll": {}
+        }
+      },
+      "Microsoft.Azure.Devices/1.0.14": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.WebApi.Client": "5.2.3",
+          "Microsoft.AspNet.WebApi.Core": "5.2.3",
+          "Microsoft.Azure.Amqp": "1.1.5",
+          "PCLCrypto": "1.0.86"
+        },
+        "frameworkAssemblies": [
+          "System",
+          "System.Core",
+          "System.Net.Http",
+          "System.Runtime.Serialization"
+        ],
+        "compile": {
+          "lib/net451/Microsoft.Azure.Devices.dll": {}
+        },
+        "runtime": {
+          "lib/net451/Microsoft.Azure.Devices.dll": {}
+        }
+      },
+      "Microsoft.WindowsAzure.ConfigurationManager/3.2.1": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Microsoft.WindowsAzure.Configuration.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Microsoft.WindowsAzure.Configuration.dll": {}
+        }
+      },
+      "Mono.Security/3.2.3": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Mono.Security.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Mono.Security.dll": {}
+        }
+      },
+      "Newtonsoft.Json/6.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "PCLCrypto/1.0.86": {
+        "type": "package",
+        "dependencies": {
+          "Mono.Security": "[3.2.3, 4.0.0)",
+          "Validation": "[2.0.6, 3.0.0)"
+        },
+        "compile": {
+          "lib/net40-Client/PCLCrypto.dll": {}
+        },
+        "runtime": {
+          "lib/net40-Client/PCLCrypto.dll": {}
+        }
+      },
+      "Validation/2.0.6.15003": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net40+sl50+win+wpa81+wp80+Xamarin.iOS10+MonoAndroid10+MonoTouch10/Validation.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net40+sl50+win+wpa81+wp80+Xamarin.iOS10+MonoAndroid10+MonoTouch10/Validation.dll": {}
+        }
+      }
+    },
+    "DNX,Version=v4.5.1/win7-x64": {
+      "Microsoft.AspNet.WebApi.Client/5.2.3": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "6.0.4"
+        },
+        "frameworkAssemblies": [
+          "System.Net.Http"
+        ],
+        "compile": {
+          "lib/net45/System.Net.Http.Formatting.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Net.Http.Formatting.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebApi.Core/5.2.3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.WebApi.Client": "5.2.3"
+        },
+        "compile": {
+          "lib/net45/System.Web.Http.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Http.dll": {}
+        }
+      },
+      "Microsoft.Azure.Amqp/1.1.5": {
+        "type": "package",
+        "compile": {
+          "lib/net451/Microsoft.Azure.Amqp.dll": {}
+        },
+        "runtime": {
+          "lib/net451/Microsoft.Azure.Amqp.dll": {}
+        }
+      },
+      "Microsoft.Azure.Devices/1.0.14": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.WebApi.Client": "5.2.3",
+          "Microsoft.AspNet.WebApi.Core": "5.2.3",
+          "Microsoft.Azure.Amqp": "1.1.5",
+          "PCLCrypto": "1.0.86"
+        },
+        "frameworkAssemblies": [
+          "System",
+          "System.Core",
+          "System.Net.Http",
+          "System.Runtime.Serialization"
+        ],
+        "compile": {
+          "lib/net451/Microsoft.Azure.Devices.dll": {}
+        },
+        "runtime": {
+          "lib/net451/Microsoft.Azure.Devices.dll": {}
+        }
+      },
+      "Microsoft.WindowsAzure.ConfigurationManager/3.2.1": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Microsoft.WindowsAzure.Configuration.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Microsoft.WindowsAzure.Configuration.dll": {}
+        }
+      },
+      "Mono.Security/3.2.3": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Mono.Security.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Mono.Security.dll": {}
+        }
+      },
+      "Newtonsoft.Json/6.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "PCLCrypto/1.0.86": {
+        "type": "package",
+        "dependencies": {
+          "Mono.Security": "[3.2.3, 4.0.0)",
+          "Validation": "[2.0.6, 3.0.0)"
+        },
+        "compile": {
+          "lib/net40-Client/PCLCrypto.dll": {}
+        },
+        "runtime": {
+          "lib/net40-Client/PCLCrypto.dll": {}
+        }
+      },
+      "Validation/2.0.6.15003": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net40+sl50+win+wpa81+wp80+Xamarin.iOS10+MonoAndroid10+MonoTouch10/Validation.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net40+sl50+win+wpa81+wp80+Xamarin.iOS10+MonoAndroid10+MonoTouch10/Validation.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.AspNet.WebApi.Client/5.2.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "3kiI8peSXbXHDDrRuo+QaX0iCEVRe0nvn2dBDRw656uPX32UalbBlSIDUDlJxu05eau4tnuhsikiUuugvvoUoQ==",
+      "files": [
+        "lib/net45/System.Net.Http.Formatting.dll",
+        "lib/net45/System.Net.Http.Formatting.xml",
+        "lib/portable-wp8+netcore45+net45+wp81+wpa81/System.Net.Http.Formatting.dll",
+        "lib/portable-wp8+netcore45+net45+wp81+wpa81/System.Net.Http.Formatting.xml",
+        "Microsoft.AspNet.WebApi.Client.5.2.3.nupkg",
+        "Microsoft.AspNet.WebApi.Client.5.2.3.nupkg.sha512",
+        "Microsoft.AspNet.WebApi.Client.nuspec"
+      ]
+    },
+    "Microsoft.AspNet.WebApi.Core/5.2.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "o90QYlRV8VKR1S7+EcJw9w8WSyVFLl+IIzN8ILZ+n2t6rsc/KS8kBxRzA7wCFPRUHhebCfLqilBk39phvanx3g==",
+      "files": [
+        "Content/web.config.transform",
+        "lib/net45/System.Web.Http.dll",
+        "lib/net45/System.Web.Http.xml",
+        "Microsoft.AspNet.WebApi.Core.5.2.3.nupkg",
+        "Microsoft.AspNet.WebApi.Core.5.2.3.nupkg.sha512",
+        "Microsoft.AspNet.WebApi.Core.nuspec"
+      ]
+    },
+    "Microsoft.Azure.Amqp/1.1.5": {
+      "type": "package",
+      "sha512": "6+3lPVW46h3H2NvjGtrHv+C0P3PVH11pZyCePm+w8AuhmX59OY+fvbA9/wll0MRAj81LPpz1i55oIQm41wOv7g==",
+      "files": [
+        "lib/net451/Microsoft.Azure.Amqp.dll",
+        "lib/net451/Microsoft.Azure.Amqp.XML",
+        "lib/uap10.0/Microsoft.Azure.Amqp.Uwp.dll",
+        "Microsoft.Azure.Amqp.1.1.5.nupkg",
+        "Microsoft.Azure.Amqp.1.1.5.nupkg.sha512",
+        "Microsoft.Azure.Amqp.nuspec"
+      ]
+    },
+    "Microsoft.Azure.Devices/1.0.14": {
+      "type": "package",
+      "sha512": "sWUwfQva7vXkYfuciP6WR9QGYfdKLVSR/NJYOSho4/6NkQmF9LHzi4dX8FfbbXo2Nh1fapr64fhwIGPHAB8VZA==",
+      "files": [
+        "lib/net451/Microsoft.Azure.Devices.dll",
+        "lib/net451/Microsoft.Azure.Devices.XML",
+        "lib/uap10.0/Microsoft.Azure.Devices.Uwp.dll",
+        "lib/uap10.0/Microsoft.Azure.Devices.Uwp.XML",
+        "Microsoft.Azure.Devices.1.0.14.nupkg",
+        "Microsoft.Azure.Devices.1.0.14.nupkg.sha512",
+        "Microsoft.Azure.Devices.nuspec",
+        "thirdpartynotice.txt"
+      ]
+    },
+    "Microsoft.WindowsAzure.ConfigurationManager/3.2.1": {
+      "type": "package",
+      "sha512": "92deJ/UgEChOtHb9eLYBsL1+Y38Y5hr+qwd7LB+iCwfIOvRsah3EUnGBjSNZxSydguXimIiJjsB4wQ2jXIqaIQ==",
+      "files": [
+        "lib/net40/Microsoft.WindowsAzure.Configuration.dll",
+        "lib/net40/Microsoft.WindowsAzure.Configuration.xml",
+        "Microsoft.WindowsAzure.ConfigurationManager.3.2.1.nupkg",
+        "Microsoft.WindowsAzure.ConfigurationManager.3.2.1.nupkg.sha512",
+        "Microsoft.WindowsAzure.ConfigurationManager.nuspec"
+      ]
+    },
+    "Mono.Security/3.2.3": {
+      "type": "package",
+      "sha512": "v0a1XmfXbooEGIQcH9GbzyDivIc15en65cMK6e3YbWDiFhjgFSTkQxAc+8W099pwYjHp+FQbNvQx/RebgxaJTw==",
+      "files": [
+        "lib/net40/Mono.Security.dll",
+        "lib/net45/Mono.Security.dll",
+        "Mono.Security.3.2.3.nupkg",
+        "Mono.Security.3.2.3.nupkg.sha512",
+        "Mono.Security.nuspec"
+      ]
+    },
+    "Newtonsoft.Json/6.0.4": {
+      "type": "package",
+      "sha512": "FyQLmEpjsCrEP+znauLDGAi+h6i9YnaMkITlfIoiM4RYyX3nki306bTHsr/0okiIvIc7BJhQTbOAIZVocccFUw==",
+      "files": [
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netcore45/Newtonsoft.Json.dll",
+        "lib/netcore45/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.xml",
+        "Newtonsoft.Json.6.0.4.nupkg",
+        "Newtonsoft.Json.6.0.4.nupkg.sha512",
+        "Newtonsoft.Json.nuspec",
+        "tools/install.ps1"
+      ]
+    },
+    "PCLCrypto/1.0.86": {
+      "type": "package",
+      "sha512": "rcmxw9Bb5GuEW1ubVBegCCbR7YU8Ptr8tGfmyVHBnK+UQlk29TuBryHXmsTglt64ZNDXpi8rWl8x5l55JylpOw==",
+      "files": [
+        "lib/monoandroid/PCLCrypto.dll",
+        "lib/monoandroid/PCLCrypto.xml",
+        "lib/monotouch/PCLCrypto.dll",
+        "lib/monotouch/PCLCrypto.xml",
+        "lib/net40-Client/PCLCrypto.dll",
+        "lib/net40-Client/PCLCrypto.xml",
+        "lib/portable-net40+sl50+win+wpa81+wp80+MonoAndroid10+xamarinios10+MonoTouch10/PCLCrypto.dll",
+        "lib/portable-net40+sl50+win+wpa81+wp80+MonoAndroid10+xamarinios10+MonoTouch10/PCLCrypto.xml",
+        "lib/sl5/PCLCrypto.dll",
+        "lib/sl5/PCLCrypto.xml",
+        "lib/win81/PCLCrypto.dll",
+        "lib/win81/PCLCrypto.pri",
+        "lib/win81/PCLCrypto.xml",
+        "lib/wp8/PCLCrypto.dll",
+        "lib/wp8/PCLCrypto.xml",
+        "lib/wpa81/PCLCrypto.dll",
+        "lib/wpa81/PCLCrypto.pri",
+        "lib/wpa81/PCLCrypto.xml",
+        "lib/Xamarin.iOS/PCLCrypto.dll",
+        "lib/Xamarin.iOS/PCLCrypto.xml",
+        "PCLCrypto.1.0.86.nupkg",
+        "PCLCrypto.1.0.86.nupkg.sha512",
+        "PCLCrypto.nuspec"
+      ]
+    },
+    "Validation/2.0.6.15003": {
+      "type": "package",
+      "sha512": "8vgCOG9mPeOd3xwyL20OT9RyOKq9PmJb0Iltzwj6eay38Cq2v6ojvpSDbc+sc6YXit+iAVyyvHTS29rBvDpdDQ==",
+      "files": [
+        "lib/portable-net40+sl50+win+wpa81+wp80+Xamarin.iOS10+MonoAndroid10+MonoTouch10/Validation.dll",
+        "lib/portable-net40+sl50+win+wpa81+wp80+Xamarin.iOS10+MonoAndroid10+MonoTouch10/Validation.xml",
+        "Validation.2.0.6.15003.nupkg",
+        "Validation.2.0.6.15003.nupkg.sha512",
+        "Validation.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "": [
+      "Microsoft.WindowsAzure.ConfigurationManager >= 3.2.1"
+    ],
+    "DNX,Version=v4.5.1": [
+      "Microsoft.Azure.Devices >= 1.0.14"
+    ]
+  }
+}
